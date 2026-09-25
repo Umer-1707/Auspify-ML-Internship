@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment / secrets
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PDFs (excluded from repo)
+*.pdf
+
+# Main dataset (excluded from repo)
+Dataset.csv
+
+Netflix-Content-Recommendation-System/Model-and-Helpers/cosine_similarity.pkl
