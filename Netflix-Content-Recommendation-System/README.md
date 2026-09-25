@@ -73,3 +73,7 @@ streamlit run app.py
 ## Note
 
 The recommendation model is trained using the Netflix-style dataset. The similarity matrix and other required model files are saved separately so the Streamlit app can load them directly without retraining the model.
+
+## Note on model file
+`cosine_similarity.pkl` (589MB) is excluded from this repo due to GitHub's file size limits.
+Regenerate it locally by running `notebook.ipynb`, which recomputes and saves the similarity matrix.
